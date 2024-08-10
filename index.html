@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esports Club</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        header {
+            background-color: #121;
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #333;
+        }
+        header .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        header nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+        header nav a:hover {
+            color: #f00;
+        }
+        .banner {
+            background: url('addu.jpg') no-repeat center center;
+            background-size: cover;
+            padding: 100px 30px;
+            text-align: center;
+        }
+        .banner h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .banner p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .banner .pay-btn {
+            background-color: #f00;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .tournaments {
+            padding: 50px 30px;
+        }
+        .tournaments .card {
+            background-color: #222;
+            border: 2px solid #333;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .tournaments .card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .tournaments .card h2 {
+            font-size: 1.5em;
+            margin-top: 15px;
+        }
+        .tournaments .card p {
+            margin: 10px 0;
+        }
+        .footer {
+            background-color: #111;
+            padding: 20px 30px;
+            text-align: center;
+            border-top: 2px solid #333;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo">The Esports Club</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Tournament</a>
+        <a href="#">Events</a>
+        <a href="#">About Us</a>
+        <a href="#">Log In</a>
+        <a href="#">Sign Up</a>
+    </nav>
+</header>
+
+<div class="banner">
+    <h1>Tournament: Season 1</h1>
+    <p>Prize Pool: ₹65</p>
+    <a href="payment.html" class="pay-btn">Pay ₹5 Now</a>
+</div>
+
+<section class="tournaments">
+    <div class="card">
+        <img src="https://source.unsplash.com/random/400x200?valorant" alt="Tournament 1">
+        <h2> Free Fire Clash Squads </h2>
+        <p>Prize Pool: ₹65</p>
+        <p>Game Mode: Team Elimination</p>
+    </div>
+    <div class="card">
+        <img src="https://source.unsplash.com/random/400x200?pubg" alt="Tournament 2">
+        <h2>Free Fire </h2>
+        <p>Prize Pool: ₹65</p>
+        <p>Game Mode: Single Elimination</p>
+    </div>
+</section>
+
+<footer class="footer">
+    &copy; 2024 The Esports Club. All Rights Reserved.
+</footer>
+
+</body>
+</html>
