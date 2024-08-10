@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - Esports Club</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('payment2.html') no-repeat center center;
+            background-size: cover;
+        }
+        .payment-container {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 30px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+        }
+        .payment-container h1 {
+            margin-bottom: 20px;
+            font-size: 2em;
+        }
+        .payment-container input[type="text"],
+        .payment-container input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+        }
+        .payment-container a {
+            display: inline-block;
+            background-color: #f00;
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="payment-container">
+    <h1>Payment</h1>
+    <form>
+        <input type="text" placeholder="Name on Card" required>
+        <input type="number" placeholder="Card Number" required>
+        <input type="number" placeholder="Expiry Date (MMYY)" required>
+        <input type="number" placeholder="CVV" required>
+    </form>
+    <a href="payment_suc.html">Pay Now</a> <!-- Direct link to the payment-success page -->
+</div>
+
+</body>
+</html>
